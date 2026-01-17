@@ -41,7 +41,7 @@ const Login = () => {
         const result = await login(formData.email, formData.password);
 
         if (result.success) {
-            // Navigate based on role
+            // Navigate based on role using fresh user data
             const roleRoutes = {
                 'Student': '/student',
                 'Event Organizer': '/organizer',
@@ -49,7 +49,7 @@ const Login = () => {
                 'College Admin': '/admin',
                 'Super Admin': '/super-admin'
             };
-            navigate(roleRoutes[user?.role] || '/');
+            navigate(roleRoutes[result.user.role] || '/');
         } else {
             setError(result.error || 'Login failed');
             setLoading(false);
