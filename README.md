@@ -75,12 +75,6 @@ npm run dev
 
 Access the app at `http://localhost:5173`
 
-## 📖 Documentation
-
-- **[Deployment Guide](./DEPLOYMENT.md)** - Deploy to Render & Vercel
-- **[Test Credentials](./TEST_CREDENTIALS.md)** - Login details for all roles
-- **[Progress Tracker](./PROGRESS.md)** - Development status
-- **[API Documentation](./API.md)** - API endpoints (coming soon)
 
 ## 🎯 User Roles
 
@@ -125,16 +119,4 @@ Admin: admin@schedly.com / admin123
 Super Admin: superadmin@schedly.com / admin123
 ```
 
-## 📝 License
 
-ISC License - see LICENSE file for details
-
-## 👥 Contributors
-
-Built with ❤️ for college event management
-
----
-
-**Live Demo**: [Coming Soon after deployment]
-
-**Documentation**: [Full docs available in `/docs` folder]
