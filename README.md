@@ -1,4 +1,4 @@
-# Schedly - College Event Management System
+# Schedly - College Event Management System 
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![License](https://img.shields.io/badge/license-ISC-blue.svg)
@@ -109,7 +109,7 @@ Access the app at `http://localhost:5173`
 
 ## 🔑 Test Accounts
 
-After running `npm run seed`:
+After running this `npm run seed`:
 
 ```
 Student: student1@schedly.com / student123
