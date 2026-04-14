@@ -9,7 +9,7 @@ A comprehensive MERN stack application for managing college events with **AI-pow
 
 ## ✨ Features
 
-### 🔐 **Role-Based Access Control (RBAC)**
+### 🔐 **Role-Based Access Control (RBAC) for proper distribution of responsibilities **
 - 5 distinct user roles with specific permissions
 - JWT-based secure authentication
 - Protected routes and API endpoints
