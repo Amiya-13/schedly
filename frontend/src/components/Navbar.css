@@ -4,6 +4,9 @@
     z-index: var(--z-sticky);
     margin-bottom: var(--spacing-xl);
     padding: var(--spacing-md) 0;
+    background: var(--white);
+    border-bottom: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
 }
 
 .navbar-container {
@@ -22,10 +25,7 @@
 }
 
 .logo-gradient {
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
 }
 
 .mobile-menu-toggle {
@@ -144,7 +144,7 @@
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background: var(--gradient-primary);
+    background: var(--primary);
     color: white;
     display: flex;
     align-items: center;

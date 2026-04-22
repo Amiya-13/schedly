@@ -44,7 +44,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navbar glass-card">
+        <nav className="navbar">
             <div className="navbar-container">
                 <Link to={getDashboardPath()} className="navbar-logo">
                     <span className="logo-gradient">Schedly</span>
