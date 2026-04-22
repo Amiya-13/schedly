@@ -83,7 +83,7 @@ const AdminDashboard = () => {
                     {analytics && (
                         <div className="analytics-grid fade-in">
                             <div className="analytics-card glass-card">
-                                <div className="analytics-icon" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+                                <div className="analytics-icon" style={{ background: 'var(--primary)' }}>
                                     <FaCalendar />
                                 </div>
                                 <div className="analytics-content">
@@ -93,7 +93,7 @@ const AdminDashboard = () => {
                             </div>
 
                             <div className="analytics-card glass-card">
-                                <div className="analytics-icon" style={{ background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)' }}>
+                                <div className="analytics-icon" style={{ background: 'var(--secondary)' }}>
                                     <FaUsers />
                                 </div>
                                 <div className="analytics-content">
@@ -103,7 +103,7 @@ const AdminDashboard = () => {
                             </div>
 
                             <div className="analytics-card glass-card">
-                                <div className="analytics-icon" style={{ background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' }}>
+                                <div className="analytics-icon" style={{ background: 'var(--info)' }}>
                                     <FaUsers />
                                 </div>
                                 <div className="analytics-content">
@@ -113,7 +113,7 @@ const AdminDashboard = () => {
                             </div>
 
                             <div className="analytics-card glass-card">
-                                <div className="analytics-icon" style={{ background: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)' }}>
+                                <div className="analytics-icon" style={{ background: 'var(--warning)' }}>
                                     <FaClock />
                                 </div>
                                 <div className="analytics-content">

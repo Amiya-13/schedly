@@ -9,7 +9,7 @@
     align-items: center;
     margin-bottom: var(--spacing-2xl);
     padding: var(--spacing-2xl);
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    background: var(--gray-100);
 }
 
 .dashboard-header h1 {

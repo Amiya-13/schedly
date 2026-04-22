@@ -84,7 +84,7 @@
     font-size: 0.75rem;
     font-weight: 700;
     color: white;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: var(--primary);
     padding: 0.35rem 0.75rem;
     border-radius: var(--radius-full);
     box-shadow: var(--shadow-md);
